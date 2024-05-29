@@ -1,0 +1,97 @@
+/* Apply the Google Font */
+body {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.title-container {
+    width: 100%;
+    background-color: #f7f7f7; /* Slightly lighter grey */
+    padding: 20px 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 4em;
+    font-family: "Noto Serif", serif;
+    margin: 0;
+    color: black;
+}
+
+.container {
+    text-align: center;
+    max-width: 800px; /* Contain the width */
+    margin: 5px auto; /* Further reduced margin to decrease space */
+    padding: 20px;
+}
+
+.story {
+    font-size: 1.2em;
+    margin: 10px 0; /* Reduced margin to decrease space */
+    padding: 0 20px;
+    line-height: 1.6; /* Improve readability */
+}
+
+.author {
+    font-size: 1em;
+    margin: 10px 0 30px; /* Increased space between story and buttons */
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    background-color: #f0f0f0; /* Near white grey for the button */
+    color: black;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #d0d0d0; /* Darker grey on hover */
+}
+
+/* Styles for post.ejs */
+.story-input textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2em;
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+
+.author-input input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button-container .btn {
+    width: 100%;
+    background-color: #f0f0f0; /* Near white grey for the button */
+    color: black;
+    padding: 15px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.button-container .btn:hover {
+    background-color: #d0d0d0; /* Darker grey on hover */
+}
